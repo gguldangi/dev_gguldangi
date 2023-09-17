@@ -14,7 +14,7 @@ const LectureItem = ({ lesson_title, site_url, image, price }) => {
                 </div>
                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                     <div class="text-center">
-                        <a class="btn btn-outline-dark mt-auto" href={site_url}>
+                        <a class="btn btn-outline-dark mt-auto" href={site_url} target="_blank">
                             강의 보러가기
                         </a>
                     </div>
