@@ -2,6 +2,7 @@ import './Styles.css';
 
 const LectureItem = ({ lesson_title, site_url, image, price }) => {
     const price1 = price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
     return (
         <div class="col mb-5">
             <div class="card h-100">
