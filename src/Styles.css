@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -74,6 +75,24 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+.categories{
+    text-align: center;
+
+}
+.ctg_detail {
+    display: inline-block; 
+    margin: 20px;
+
+}
+.ctg_text{
+    text-decoration: none;
+    color: #000;
+}
+.ctg_img{
+    height: 50px;
+    width: 50px;
+    
 }
 
 body {
